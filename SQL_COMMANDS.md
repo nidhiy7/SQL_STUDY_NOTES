@@ -126,6 +126,7 @@ ORDER BY Country DESC;
     <b><a href="#">↥ back to top</a></b>
 </div>
 
+
 ## INSERT
 
 ```sql
@@ -136,6 +137,78 @@ VALUES ('Cardinal', 'Tom B. Erichsen', 'Skagen 21', 'Stavanger', '4006', 'Norway
 ```
 
 `INSERT` statements are used to add a new row to a table.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## UPDATE
+
+```sql
+UPDATE table_name
+SET some_column = some_value
+WHERE some_column = some_value;
+Example:
+UPDATE Customers
+SET ContactName = 'Alfred Schmidt', City= 'Frankfurt'
+WHERE CustomerID = 1;
+```
+
+`UPDATE` statments allow you to edit rows in a table.
+## DELETE
+
+```sql
+DELETE FROM table_name WHERE some_column = some_value;
+Example:
+DELETE FROM Customers WHERE CustomerName='Alfreds Futterkiste';
+```
+
+`DELETE` statements are used to remove rows from a table.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## GROUP BY
+
+```sql
+SELECT COUNT(*)
+FROM table_name
+GROUP BY column_name;
+```
+
+`GROUP BY` is a clause in SQL that is only used with aggregate functions. It is used in collaboration with the `SELECT` statement to arrange identical data into groups.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+## MAX
+
+```sql
+SELECT MAX(column_name)
+FROM table_name;
+Example:
+SELECT MAX(Price) AS LargestPrice
+FROM Products;
+```
+
+`MAX()` is a function that takes the name of a column as an argument and returns the largest value in that column.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
+
+## MIN
+
+```sql
+SELECT MIN(column_name)
+FROM table_name;
+Example:
+SELECT MIN(Price) AS SmallestPrice
+FROM Products;
+```
+
+`MIN()` is a function that takes the name of a column as an argument and returns the smallest value in that column.
 
 <div align="right">
     <b><a href="#">↥ back to top</a></b>
