@@ -35,3 +35,13 @@ DROP TABLE - deletes a table
 CREATE INDEX - creates an index (search key)
 DROP INDEX - deletes an index
 ```
+**3. What is MySQL?**
+
+MySQL is the most popular Open Source SQL database management system developed, distributed, and supported by Oracle Corporation.
+
+**Another common SQL interview question regarding MySQL may come in a different form**
+
+“**What is the difference between SQL and MySQL?**” or **Difference between SQL and MySQL:**
+
+SQL is a structured query language that is used for manipulating and accessing the relational database, on the other hand, MySQL itself is a relational database that uses SQL as the standard database language.
+
