@@ -5,7 +5,7 @@
 
 - It is a standard language for managing data stored in relational database management systems (RDBMS) such as MySQL, Oracle, and Microsoft SQL Server.
 
-## SQL consists of several components, including data definition language (DDL), data manipulation language (DML), data control language (DCL), and transaction control language (TCL).
+#### SQL consists of several components, including data definition language (DDL), data manipulation language (DML), data control language (DCL), and transaction control language (TCL).
 
 - DDL is used to create and modify database objects such as tables, indexes, and views.
 - DML is used to insert, update, and delete data from tables.
