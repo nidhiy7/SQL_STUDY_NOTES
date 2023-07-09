@@ -20,3 +20,5 @@ name VARCHAR(50),
 department VARCHAR(50), 
 salary INT 
 ); 
+
+- In this example, we're creating a table named "employees" with four columns: id, name, department, and salary. The "id" column is defined as the primary key, indicating that it uniquely identifies each row in the table
