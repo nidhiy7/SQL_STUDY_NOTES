@@ -1,6 +1,6 @@
 # SQL_STUDY_NOTES
 
-1) What are SQL and its basic syntax?
+## 1) What are SQL and its basic syntax?
 - SQL or Structured Query Language is a programming language used to manage and manipulate relational databases.
 
 - It is a standard language for managing data stored in relational database management systems (RDBMS) such as MySQL, Oracle, and Microsoft SQL Server.
